@@ -24,7 +24,7 @@ body {
     margin-top: 10px;
     width: 400px;
     height: 100px;
-    background-image: url('./img/Logo_mexicana.png');
+    background-image: url('../img/Logo_mexicana.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -33,7 +33,7 @@ body {
     margin-top: 10px;
     width: 400px;
     height: 100px;
-    background-image: url('./img/Logo_americana.png');
+    background-image: url('../img/Logo_americana.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -42,7 +42,7 @@ body {
     margin-top: 10px;
     width: 400px;
     height: 100px;
-    background-image: url('./img/Logo_hawaiian.png');
+    background-image: url('../img/Logo_hawaiian.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
