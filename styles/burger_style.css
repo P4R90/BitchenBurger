@@ -51,7 +51,7 @@ body {
     margin-top: 22px;
     width: 400px;
     height: 100px;
-    background-image: url('./img/Logo_slih.png');
+    background-image: url('../img/Logo_slih.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }

@@ -66,14 +66,21 @@
 
 
   .page_title {
-    
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     color: black;
   }
+
+  .page_desc {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    color: black;
+  }
   
   .product-flex {
-    margin-top: 120px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -123,6 +130,16 @@
   .add-to-cart:hover {
     background: black;
     color: white;
+  }
+
+
+  .quote {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    margin-top: 50px;
   }
 
 

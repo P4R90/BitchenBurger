@@ -1,66 +1,83 @@
 /* CSS Reset */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Header */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: white;
+}
 
+/* Head */
 .header {
-  position: fixed;
-    display: flex;
-    height: 100px;
-    width: 100vw;
-    align-items: center;
-    background-color: #FFB7B7;
-    z-index: 99;
+position: fixed;
+  display: flex;
+  height: 100px;
+  width: 100vw;
+  align-items: center;
+  background-color: #FFB7B7;
+  z-index: 99;
 }
 
 .logo {
-    margin-left: 200px;
-    background-image: url("../img/Logo.png");
-    flex-grow: 2;
-    background-repeat: no-repeat;
-    height: 70px;
-    
+  margin-left: 200px;
+  background-image: url("../img/Logo.png");
+  flex-grow: 2;
+  background-repeat: no-repeat;
+  height: 70px;
+  
 }
 
 .nav {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    padding: 100px;
-    list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 100px;
+  list-style-type: none;
 }
 
 .nav a {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
 }
 
 .nav a:hover {
-    color: #EFA7A7;
+  color: #EFA7A7;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-  }
 
-  .page_title {
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-  }
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.page_title {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+.page_desc {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 900px;
+  color: black;
+}
 
 
   .recipe_section {
@@ -250,6 +267,7 @@
     text-align: center;
     font-size: 24px;
     font-style: italic;
+    color: black;
   }
 
 
