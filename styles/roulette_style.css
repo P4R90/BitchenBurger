@@ -87,7 +87,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-button { 
+.spin { 
   border-radius: 50%; 
   width: 100px;
   height: 100px;
@@ -107,11 +107,11 @@ button {
   text-align: center;
 }
 
-button span { 
+.spin span { 
   position: relative; 
 }
 
-button:hover { 
+.spin:hover { 
   padding-top: 3px;
   transform: translateY(4px);
   box-shadow: 0 4px 0 #EFA7A7,
